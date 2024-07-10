@@ -1,0 +1,145 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.nav_cls{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+ margin-right: 40px;
+ margin-left: 40px;
+}
+.section_1{
+    background-image: url(./assets/Hero-bg.png);
+   text-align: center;
+}
+.section_2 {
+    background-color: #fafafb;
+    margin:10%;
+    border-radius:2% ;
+    padding-bottom: 4%;
+}
+
+.sec_2_1 {
+    background-color: white;
+    border-radius: 2%;
+    margin:1% 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #565a64;
+    padding: 10px;
+}
+
+.sec_2_1 .col-1 {
+    flex: 1;
+}
+
+.sec_2_1 .col-6 {
+    flex: 2;
+}
+
+.sec_2_1 .start_image{
+    padding-left: 50%;
+}
+.page_3{
+    text-align: center;
+    margin:10%;
+    border-radius:2% ;
+    border: 2px solid #565a64;
+}
+.iframe-container {
+    width: 1100px;
+    height: 465px;
+    border-radius: 4%;
+    overflow: hidden;
+    margin: 0 auto; 
+    padding-bottom: 2%;
+}
+.target-wrapper{
+    border-radius: 22px;
+    padding:40px 0;
+}
+.target-container{
+    display: flex;
+    padding:10%;
+    border: 2px solid #000;
+    border-radius: 2%;
+    row-gap: 20px;
+    padding: 0 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.support{
+    background-image: url(./assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+    border-radius: 22px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+.btn{
+    border-radius: 10px;
+    width: 420px;
+    height: 50px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-left: 15px;
+    border:none;
+}
+.btn-n{
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    background:white;
+    font-size: large;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    border:none;
+}
+.icon-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 20px;
+}
+.icon-container {
+    background-color: rgb(255,246,244);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.text {
+    max-height: 1.2em;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.toggle:checked ~ .text {
+    max-height: 1000px; 
+}
+.toggle {
+    display: none;
+}
+.label {
+    cursor: pointer;
+    color:#000;
+    display: block;
+    margin-top: 10px;
+}
+.lebel_btn{
+    cursor: pointer;
+    text-decoration: none;
+    color: #565a64;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #565a64;
+}
